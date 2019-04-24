@@ -80,30 +80,12 @@ hi Underlined   gui=UNDERLINE guifg=CornflowerBlue guibg=NONE
 hi Macro        gui=NONE guifg=#CC6666 guibg=NONE
 
 
-" For pemissable Ruby values, see
-" http://publicsource.apple.com/source/vim/vim-44/runtime/syntax/ruby.vim
-"
-hi rubyInterpolation gui=NONE guifg=#FFD2A7 guibg=NONE
-hi rubyInterpolationDelimiter gui=BOLD guifg=#519DFF guibg=NONE
-hi rubyConstant gui=NONE guifg=#f4bf75 guibg=NONE
-hi link rubySymbol String
-hi link rubyRegexp Operator
-hi link rubyKeyword PreProc
-hi link rubyIdentifier Constant
-hi link rubyInstanceVariable Identifier
-" These don't work.
-" hi rubyBlockArgument gui=BOLD guifg=green guibg=NONE	    
-" hi rubyLocalVariableOrMethod gui=NONE guifg=red guibg=NONE
-
 hi htmlBold gui=BOLD
 hi htmlItalic gui=ITALIC
-" hi htmlEndTag gui=BOLD guifg=CornflowerBlue guibg=NONE
-" hi htmlTag gui=BOLD guifg=CornflowerBlue guibg=NONE
 hi htmlLink gui=UNDERLINE guifg=white guibg=NONE
-" hi Tag gui=NONE guifg=#519DFF guibg=NONE
 " Angled brackets' colour
 hi htmlTag gui=BOLD guifg=#92d4ff guibg=NONE
-hi link htmlEndTag htmlTag
+hi htmlEndTag gui=BOLD guifg=#92d4ff guibg=NONE
 hi Tag gui=NONE guifg=#92d4ff guibg=NONE
 hi link htmlStatement Tag
 "
